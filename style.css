@@ -1,0 +1,21 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #000;
+  color: blue;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  padding: 20px;
+}
+
+.flipped {
+  background-color: transparent;
+  transition: background-color 0.8s ease;
+}
